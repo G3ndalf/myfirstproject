@@ -9,6 +9,8 @@ body, h1, h2, h3, h4, p, a {
   }
   body {
     font-family: 'Helvetica', 'Arial', sans-serif;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2022-03/1647896010_3-abrakadabra-fun-p-patterni-dlya-saita-besshovnie-9.jpg);
+    background-size: center;
   }
   
   .header {
@@ -43,7 +45,8 @@ body, h1, h2, h3, h4, p, a {
     margin: 100px auto 50px;
   }
   .card{
-    box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+    background-color: rgba(0, 0, 0, .80);
+    box-shadow: 10px 5px 5px;
     margin-right: 90px;
     display: inline-block;
     padding: 45px 45px 70px 45px;
@@ -54,12 +57,14 @@ body, h1, h2, h3, h4, p, a {
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: 500;
+    color:rgb(255, 255, 255);
   }
   .no-right-margin{
     margin-right: 0;
   }
   .card-text{
     font-size: 16px;
+    color:rgb(255, 255, 255);
   }
   .card-image{
     margin-bottom: 25px;
